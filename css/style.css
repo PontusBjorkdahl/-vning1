@@ -1,0 +1,151 @@
+* {
+    /* 
+    A setting that makes sure that paddings and borders are included in the total widht/height.
+    and NOT added to the total width/heigh
+    */
+    box-sizing: border-box;
+}
+
+
+#container {
+    width: 960px;
+    margin: 20px auto;
+}
+
+#header {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height: 100px;
+    margin-bottom: 30px;
+    
+}
+
+#main-nav {
+    margin-top: 57px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation a {
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+.navigation a:hover {
+    background-color: rgba(0, 0, 0, 0.233);
+    font-weight: bold;
+}
+
+#main-nav > ul > li {
+    float: left;
+}
+
+#sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 170px;
+    height: 550px;
+    border-right: 1px solid;
+}
+
+#main-content {
+    display: inline-block;
+    width: 786px;
+    height: 550px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+#bild1 {
+    height: 250px;
+    margin-top: 100px;
+    float: right;
+}
+
+#footer {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+    height: 130px;
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+    padding-left: 50px;
+    position: relative;
+}
+
+#sociala-medier {
+    display: inline-block;
+    position: absolute;
+    width: 150px;
+    top: 15px;
+    color: black;
+}
+
+#hashtag {
+    display: inline-block;
+    position: absolute;
+    color:black;
+    width: 150px;
+    margin-top: 30px;
+    left: 50px;
+    top: 40px;
+}
+
+#bild-fb {
+    display: inline-block;
+    position: absolute;
+    left: 350px;
+    top: 38px;
+    mix-blend-mode: multiply;
+}
+#bild-insta {
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+    top: 38px;
+    mix-blend-mode: multiply;
+}
+#bild-twitter {
+    display: inline-block;
+    position: absolute;
+    left: 650px;
+    top: 38px;
+    mix-blend-mode: multiply;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    margin-left: 30px;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 0.233);
+    border-bottom: 3px solid black; 
+}
+
+button {
+    padding: 6px 25px;
+    font-weight: bold;
+}
