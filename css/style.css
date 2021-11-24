@@ -160,3 +160,11 @@ button {
     margin: auto;
     text-align: center;
 }
+
+h1 {
+    margin: 10px 0;
+}
+
+.logo {
+    margin: 15px
+}
